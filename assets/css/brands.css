@@ -159,10 +159,9 @@
     }
 
     .bg-light {
-        background-color: #f8f9fa !important;
-        position: sticky;
-        top: 0;
+        position: fixed;
         z-index: 5;
+        width: 100%;
     }
 
     .homepage-title > p {

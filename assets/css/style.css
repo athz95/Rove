@@ -162,18 +162,27 @@
          
        }
 
-     .bg-light {
-        position: sticky !important;
-        top: 0px !important;
-        background-color: #f8f9fa !important;
-    }
-
-    .bg-light {
-        position: sticky !important;
-        background-color: #f8f9fa !important;
-        width: 100%;
+       .bg-light {
+        position: fixed;
         z-index: 5;
-    }
+        width: 100%;
+        /* top: 0% !important; */
+      }
+
+       /* html:not([data-scroll='0']) .bg-light {
+            position: fixed;
+            z-index: 5;
+            width: 100%;
+            top: 8% !important;
+      } */
+
+     
+
+    /* .bg-light {
+        position: fixed !important;
+        background-color: #f8f9fa !important;
+        top: 8% !important;
+    } */
 
      .rove-logo {
           width: 43%;
@@ -327,7 +336,7 @@
       }
 
       .homepage-title {
-        margin: 50% 0 0 8%;
+        margin: 52% 0 0 8%;
     }
 
      .carousel-caption > h3 {

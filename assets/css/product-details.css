@@ -4,21 +4,20 @@
    }
 
     .homepage-top {
-         background-image: url("../images/Products/products-bg.png");
+         background-image: url("../images/product-details/product-details-bg.png");
          background-position-y: initial;
          background-repeat: no-repeat;
          background-size: cover;
          width: 100%;
-         height: 599px;
+         height: 440px;
          padding: 0px;
          
     }
 
     .bg-light {
-        background-color: #f8f9fa !important;
-        position: sticky;
-        top: 0;
+        position: fixed;
         z-index: 5;
+        width: 100%;
     }
 
     .nav-item-active{

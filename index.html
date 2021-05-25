@@ -21,7 +21,7 @@
    <div class="row">
       <div class="homepage-top col-lg-12 col-md-12 col-xl-12">  
       
-         <nav class="navbar navbar-expand-lg navbar-light bg-transparent navbar-main">
+         <nav class="navbar navbar-expand-lg navbar-light bg-transparent navbar-main" id="main-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -77,7 +77,7 @@
             </div>
           </nav>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-second">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-second" id="second-header">
                <a class="navbar-brand" href="index.html"><img class="rove-logo" src="./assets/images/Homepage/Rove Logo.svg" alt=""></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -670,6 +670,63 @@
     
 
     <script>
+
+      var lastScrollTop = 0;
+
+      $(window).scroll(function() {
+
+          var scrollTop = $(this).scrollTop();
+          
+          if (scrollTop > lastScrollTop) {
+              
+              $('#main-header').hide();
+          } else {
+          
+              $('#main-header').show();
+          }
+          
+          lastScrollTop = scrollTop;
+      });
+
+      
+      var lastScrollTop = 0;
+
+      $(window).scroll(function() {
+
+          var scrollTop = $(this).scrollTop();
+          
+          if (scrollTop > lastScrollTop) {
+              
+              $('#second-header').css({"top":"8%"});
+          } else {
+
+              $('#second-header').css({"top":"0%"});
+          } 
+          
+          lastScrollTop = scrollTop;
+      });
+
+      
+      var lastScrollTop = 0;
+
+      $(window).scroll(function() {
+
+          var scrollTop = $(this).scrollTop();
+          
+          if (scrollTop = lastScrollTop) {
+              
+              $('#second-header').css({"top":"0%"});
+          } else {
+
+              $('#second-header').css({"top":"8%"});
+          } 
+          
+          lastScrollTop = scrollTop;
+      });
+
+           
+
+
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 4,
         spaceBetween: 30,
