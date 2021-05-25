@@ -508,10 +508,19 @@
        .product-icon-box{
             margin-left: 5%;
             margin-top: 12%;
+
        }
+
+       /* .product-icon-box:hover {
+        background-color: #FFB300;
+        
+       } */
+
        .product-icon-box img {
           margin-top: -25%;
       }
+      
+
       .focus-box-left > h4 {
          font-size: 25px;
          text-align: center;
@@ -1041,7 +1050,7 @@
     }
 
     .contact-left > h2 {
-        font-size: 60px;
+        font-size: 50px;
         width: 100%;
         text-align: left;
         font-family: Poppins;
@@ -1055,7 +1064,7 @@
     }
 
     .contact-left > h6 {
-        font-size: 22px;
+        font-size: 19px;
         text-align: left;
         width: 70%;
         font-family: Poppins;

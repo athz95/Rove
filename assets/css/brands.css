@@ -143,9 +143,9 @@
         overflow: scroll;
        }
 
-     .homepage-title {
-         margin: 13% 0 0 8%;
-     }
+       .homepage-title {
+        margin: 17% 0 0 8%;
+    }  
 
     .homepage-title > h3 {
          font-size: 54px;
@@ -173,6 +173,7 @@
          letter-spacing: 0px;
          color: #FFFFFF;
          opacity: 1;
+         margin-top: 1%;
     }
 
     .industries-sec > h1{
@@ -254,7 +255,7 @@
     }
 
     .contact-left > h2 {
-        font-size: 60px;
+        font-size: 50px;
         width: 100%;
         text-align: left;
         font-family: Poppins;
@@ -268,7 +269,7 @@
     }
 
     .contact-left > h6 {
-        font-size: 22px;
+        font-size: 19px;
         text-align: left;
         width: 70%;
         font-family: Poppins;
